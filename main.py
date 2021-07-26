@@ -3,6 +3,7 @@ translator = Translator()
 language = input('Idioma: Escribe es para Español, en minúsculas.\nLanguage: Write en for English, in lowercase\n')
 if language == 'es':
     while True:
+        print('\n')
         text = input('Introduce el texto\n')
         languages = ['ja', 'et', 'tl', 'hu', 'hmn', 'ga', 'ku', 'ps', 'gd', 'eo', 'af', 'az', 'ny', language]
         for i in range(len(languages)):
@@ -17,6 +18,7 @@ if language == 'es':
             break
 elif language == 'en':
     while True:
+        print('\n')
         text = input('Input text\n')
         languages = ['ja', 'et', 'tl', 'hu', 'hmn', 'ga', 'ku', 'ps', 'gd', 'eo', 'af', 'az', 'ny', language]
         for i in range(len(languages)):
